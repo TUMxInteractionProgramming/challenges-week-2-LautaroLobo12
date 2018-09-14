@@ -89,7 +89,7 @@ ul {
 .new-button {
   background-color: white;
   text-transform: uppercase;
-  border-bottom: 4px solid blue;
+  border-bottom: 4px solid #3F51B5;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -100,7 +100,7 @@ ul {
   color: blue;
 }
 .selected-channel {
-  border-left: 4px solid blue !important;
+  border-left: 4px solid #3F51B5 !important;
   color: blue;
 }
 .channels {
