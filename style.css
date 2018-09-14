@@ -97,11 +97,11 @@ ul {
   width: 33%;
   height: 72px;
   content: 16px;
-  color: blue;
+  color: #3F51B5;
 }
 .selected-channel {
   border-left: 4px solid #3F51B5 !important;
-  color: blue;
+  color: #3F51B5;
 }
 .channels {
   display: block;
