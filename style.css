@@ -2,7 +2,7 @@
           * Background: #F5F5F5 (GREY 100)
           * Primary Text: black
           * Primary color: #3F51B5 (INDIGO)
-          * Primary color_text : white
+          * Primary color_text: white
           * Accent color: #CDDC39 (LIME)
           * Accent color_text: black */
 /*global styles */
@@ -19,7 +19,7 @@ body {
  h1 {
   /* #2 #colourful #app-bar */
   background-color: #3F51B5;
-  olor: white;
+  color: white;
 }
 .buttons2 {
   /* #2 #colourful #plusfive */
