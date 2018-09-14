@@ -1,0 +1,117 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Roboto', 'Arial', sans-serif;
+			margin: 0;
+			padding: 0;
+        }
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+        h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+        .buttons2 {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+			text-transform: uppercase;
+            /* #2 #font capital #letters */
+        }
+		a {
+			text-transform: uppercase;
+			color: black;
+		}
+        /*styles for channel area*/
+        h2 {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+        /*styles for chat area*/
+        p {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+        strong {
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            text-transform: uppercase;
+        }
+        h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+        em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+		ul {
+		background-color: white;
+		list-style-type: none;
+		}
+		.message-text {
+			background-color: white;
+			padding: 16px;
+		}
+		.message-container {
+			width: %80;
+			margin-bottom: 8px;
+			margin-left: 2.5%;
+		}
+		.metadata {
+			font-size: medium;
+		}
+		.own-message{
+			margin-left: 17.5%;
+		}
+		.buttons1 {
+			background-color: white;
+			text-transform: uppercase;
+			border: 0;
+			font-size: 13px;
+			width: 33%;
+			height: 72px;
+			content: 16px;
+		}
+		.button-images {
+			display: block;
+			margin: auto;
+		}
+		.new-button {
+			background-color: white;
+			text-transform: uppercase;
+			border-bottom: 4px solid blue;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			font-size: 13px;
+			width: 33%;
+			height: 72px;
+			content: 16px;
+			color: blue;
+		}
+		.selected-channel {
+			border-left: 4px solid blue !important;
+			color: blue;
+		}
+		.channels {
+			display: block;
+			font-size: 16px;
+			padding: 16px;
+			box-sizing: border-box;
+			border: 1px solid lightgrey;
+		}
+		.channel-images {
+			vertical-align: middle;
+		}
